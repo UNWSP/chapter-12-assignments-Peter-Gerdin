@@ -30,7 +30,7 @@ public class distanceFromAverageWithExceptionHandling {
             }
             // *************************************************************   *******************************
         }
-        if(arraySize == 999)
+        if(arraySize == QUIT)
         {
             System.exit(0);
         }
@@ -52,7 +52,7 @@ public class distanceFromAverageWithExceptionHandling {
             {
                 System.out.println("Please enter a number or type 999 to quit >> ");
                 input = Double.parseDouble(inputDevice.nextLine());
-                if(input==999){
+                if(input==QUIT){
                     System.exit(0);
                 }
                 numArray.add(input);
