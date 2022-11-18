@@ -16,6 +16,7 @@ public class distanceFromAverageWithExceptionHandling {
         int counter = 0;
         ArrayList<Double> numArray;
 
+
         while (!continueVar)
         {
             try
